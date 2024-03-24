@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Stress-Test</title>
+  </head>
+
+  <body>
+    <div class="survey_container">
+      <h1 class="survey_header">Was ist dein Stress Score?</h1>
+      <div class="divider_flex">
+        <div class="div_line"></div>
+        <img
+          src="https://uploads-ssl.webflow.com/64ec4b03ff864ae797b5b9df/65a54e535402e3c3a2393e1a_medi.svg"
+          class="main_logo"
+        />
+        <div class="div_line"></div>
+      </div>
+      <p class="frage"></p>
+      <div class="progressContainer">
+        <p class="questionProgress"></p>
+      </div>
+      <p class="dauer">Dauer: <b>3 Minuten</b></p>
+      <p class="action_call">
+        Finde heraus, wie entspannt Du bist, indem Du an unserem kurzen Quiz
+        teilnimmst.
+      </p>
+      <button class="main" onclick="changeHeading()">Quiz Starten</button>
+    </div>
+  </body>
+
+  <script defer src="survey.js"></script>
+</html>

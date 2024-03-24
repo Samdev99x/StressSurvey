@@ -1,0 +1,229 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #F5F4EC;
+}
+
+
+p{
+    font-size: 16px;
+}
+
+.survey_container {
+    max-width: 600px;
+    background-color: #ffffff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    margin: 60px auto;
+}
+
+.survey_header {
+    font-family: "Libre Baskerville", serif;
+    margin-top: 30px;
+    font-size: 30px;
+    color:#000000;
+}
+
+.divider_flex {
+    display: flex;
+    flex-direction: row;
+    grid-row-gap: 40px;
+    grid-column-gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.div_line {
+    width: 150px;
+    height: 2px;
+    background-color: #000000;
+}
+
+.main_logo {
+    width: 50px;
+    height: 50px;
+}
+
+.gross_abstand {
+    margin-top: 50px;
+}
+
+.dauer {
+    margin-top: -20px;
+}
+
+.action_call {
+    margin-top: 1px;
+    text-align: center;
+    line-height: 24px;
+    padding: 0 30px;
+}
+
+.main {
+    background: linear-gradient(to bottom, #DACBA2, #AD985F);
+    color: rgb(255, 255, 255);
+    margin-bottom: 60px;
+    margin-top: 30px;
+    font-weight: 800;
+    padding: 15px;
+    border: 0;
+    cursor: pointer;
+}
+
+.frage {
+    font-family: "Libre Baskerville", serif;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.btnContainer {
+    display: flex;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-top: 20px;
+}
+
+.previousButton {
+    background-color: #342a0600;
+    color: #000000;
+    font-size: 22px;
+    position: absolute;
+    left: 30px;
+    bottom: -10px;
+    margin-bottom: -90px;
+}
+
+.nextButton {
+    background: linear-gradient(to bottom, #DACBA2, #AD985F);
+    color: rgb(255, 255, 255);
+}
+
+.btn{
+    margin-bottom: 60px;
+    margin-top: 30px;
+    font-weight: 800;
+    padding: 15px;
+    border: 0;
+    cursor: pointer;
+}
+
+.radio_form{
+    display: flex;
+    flex-direction: column;
+    -ms-flex-align: center;
+}
+
+.radioContainer{
+    margin-top: 6px;
+}
+
+.optionLabel {
+    padding-left: 5px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    transform: scale(1.3);
+    cursor: pointer;
+  }
+
+.errMessage{
+    text-align: center;
+    background-color: rgb(244, 207, 207);
+    border:1px solid #000000;
+    padding: 10px;
+    display: none;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.pbContainer{
+    background-color: #ffffff;
+    height: 17px;
+    width: 300px;
+    border: 1px solid #A19670;
+    margin-bottom: 45px;
+}
+
+.pb{
+    background-color: #DACBA2;
+    height: 100%;
+    width: 10%;
+    /*border: 1px solid #A19670;*/
+    transition: width 0.3s ease-in-out;
+}
+
+.progressContainer{
+    margin-top: 20px;
+}
+.questionProgress{
+   text-align: center;
+}
+
+.divider{
+    width: 80%;
+    height: 1px;
+    background-color: #342A06;
+}
+
+.stress_niveau{
+    font-size: 26px;
+    text-decoration: underline;
+    font-weight: 800;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.re{
+    margin-top: 15px;
+    max-width: 450px;
+}
+
+.em_container{
+    background: linear-gradient(to bottom, #EFEBDF, #DCD2B6);
+    margin-top: 45px;
+    width: 100%;
+}
+
+.em_container > * {
+    padding: 0 60px;
+}
+
+#meine-form{
+    padding: 30px 0;
+    margin-top: 20px;
+}
+
+.formAbstand{
+    padding-left: 15px;
+}
+
+.smallAbstand{
+    padding-right: 5px;
+}
+
+.formButton{
+    display: block;
+    width: 350px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    cursor: pointer;
+}
+
+.formstop{
+    padding: 10px;
+    background-color: #e6abab;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
