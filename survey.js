@@ -405,10 +405,12 @@ function changeHeading() {
     function formEinfuegen(em_paragraph){
       let pseudoFormContainer = document.createElement('div');
       let pseudoFormHtml = '<form id="meine-form">' +
+      '<div class="insideFormContainer">' +
       '<label for="name" class="smallAbstand">Name:</label>' +
       '<input type="text" id="name" name="name">' +
       '<label for="email" class="formAbstand smallAbstand">Email:</label>' +
       '<input type="email" id="email" name="email">' +
+      '</div>' +
       '<input type="submit" class="nextButton formButton" value="Bericht Erhalten">' +
       '</form>';
       pseudoFormContainer.innerHTML = pseudoFormHtml;
